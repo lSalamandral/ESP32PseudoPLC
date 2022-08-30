@@ -1,0 +1,12 @@
+const char* ssid_1= "hoy_puede_ser_un_gran_dia";
+const char* password_1= "Amp5pcTs";
+const char* ssid_2= "LAB_ELECTRONICA";
+const char* password_2= "LabElec2022";
+const char* ssid_3= "Colgate de esta gil!";
+const char* password_3= "Configurar";
+const char* ssid_4= "LauyMili";
+const char* password_4= "M3k10-A4";
+const char* ssid_5= "Nodo Informatico III";
+const char* password_5= "utn12345";
+const char* ssid_6= "Copelnet_Wifi";
+const char* password_6= "4C6E6EE5FE42";
