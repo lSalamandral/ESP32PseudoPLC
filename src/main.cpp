@@ -31,7 +31,7 @@ std::list<TaskHandle_t> tareas;
 TaskHandle_t xHandle=NULL;
 bool AND(int a,int b,int d,bool c){
 bool aux;
-switch (b)
+switch (b) //hola
 {
 case 0:
   aux=digitalRead(13);
