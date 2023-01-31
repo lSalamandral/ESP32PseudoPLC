@@ -72,6 +72,7 @@ if (a==14){
 if(a!=14){ 
 return c&aux;
 }
+return 0;
 }
 bool OR(int a,int b,int d, bool c){
 bool aux;
@@ -381,7 +382,7 @@ void datastring()         // Recepcion de Json, des-serializacion del mismo, tra
   JsonObject root = doc.as<JsonObject>();
   for (JsonPair kv : root)
   {
-    data = kv.value().as<char *>();
+    data = kv.value().as<const char *>();
     if (data != "True")
     {
       valores.push_back(data);
